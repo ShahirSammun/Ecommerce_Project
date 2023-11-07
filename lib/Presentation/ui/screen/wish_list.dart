@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:mobile_app7/Presentation/state_holders/main_bottom_nav_controller.dart';
 
 class WishListScreen extends StatefulWidget {
   const WishListScreen({super.key});

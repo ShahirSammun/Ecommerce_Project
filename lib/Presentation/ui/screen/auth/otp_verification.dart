@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
+import 'package:mobile_app7/Presentation/state_holders/otp_verification.dart';
+import 'package:mobile_app7/Presentation/ui/screen/main_bottom_nav.dart';
 import 'package:mobile_app7/Presentation/ui/utility/app_colors.dart';
 import 'package:mobile_app7/Presentation/ui/utility/image_assets.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';

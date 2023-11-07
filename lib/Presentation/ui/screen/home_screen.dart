@@ -1,6 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
+import 'package:mobile_app7/Presentation/state_holders/category_controller.dart';
+import 'package:mobile_app7/Presentation/state_holders/home_slider_controller.dart';
+import 'package:mobile_app7/Presentation/state_holders/main_bottom_nav_controller.dart';
+import 'package:mobile_app7/Presentation/state_holders/new_product_controller.dart';
+import 'package:mobile_app7/Presentation/state_holders/popular_product.dart';
+import 'package:mobile_app7/Presentation/state_holders/special_product_controller.dart';
 import 'package:mobile_app7/Presentation/ui/utility/image_assets.dart';
 import 'package:mobile_app7/Presentation/ui/widgets/category_card.dart';
 import 'package:mobile_app7/Presentation/ui/widgets/circular_icon_button.dart';

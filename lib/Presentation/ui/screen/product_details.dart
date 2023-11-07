@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:mobile_app7/Presentation/state_holders/add_to_cart_controller.dart';
+import 'package:mobile_app7/Presentation/state_holders/product_details_controller.dart';
 import 'package:mobile_app7/Presentation/ui/utility/app_colors.dart';
 import 'package:mobile_app7/Presentation/ui/widgets/custom_stepper.dart';
 import 'package:mobile_app7/Presentation/ui/widgets/home/product_image.dart';

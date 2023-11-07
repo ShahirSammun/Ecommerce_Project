@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:mobile_app7/Presentation/state_holders/category_controller.dart';
+import 'package:mobile_app7/Presentation/state_holders/main_bottom_nav_controller.dart';
 import 'package:mobile_app7/Presentation/ui/widgets/category_card.dart';
 
 import 'product_list.dart';

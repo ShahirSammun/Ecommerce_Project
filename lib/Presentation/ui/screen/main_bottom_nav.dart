@@ -1,10 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:mobile_app7/Presentation/state_holders/category_controller.dart';
+import 'package:mobile_app7/Presentation/state_holders/home_slider_controller.dart';
+import 'package:mobile_app7/Presentation/state_holders/main_bottom_nav_controller.dart';
+import 'package:mobile_app7/Presentation/state_holders/popular_product.dart';
+import 'package:mobile_app7/Presentation/state_holders/special_product_controller.dart';
 import 'package:mobile_app7/Presentation/ui/screen/cart_screen.dart';
 import 'package:mobile_app7/Presentation/ui/screen/category_list.dart';
 import 'package:mobile_app7/Presentation/ui/screen/home_screen.dart';
 import 'package:mobile_app7/Presentation/ui/screen/wish_list.dart';
 import 'package:mobile_app7/Presentation/ui/utility/app_colors.dart';
+
+import '../../state_holders/new_product_controller.dart';
 
 class MainBottomNavScreen extends StatefulWidget {
   const MainBottomNavScreen({super.key});

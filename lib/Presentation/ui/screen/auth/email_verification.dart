@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
+import 'package:mobile_app7/Presentation/state_holders/email_verification_controller.dart';
 import 'package:mobile_app7/Presentation/ui/screen/auth/otp_verification.dart';
 import 'package:mobile_app7/Presentation/ui/utility/image_assets.dart';
 

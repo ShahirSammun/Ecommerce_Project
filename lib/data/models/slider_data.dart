@@ -6,14 +6,14 @@ class SliderData {
   int? productId;
   String? createdAt;
   String? updatedAt;
-
-  SliderData({this.id,
-    this.title,
-    this.shortDes,
-    this.image,
-    this.productId,
-    this.createdAt,
-    this.updatedAt});
+  SliderData(
+      {this.id,
+        this.title,
+        this.shortDes,
+        this.image,
+        this.productId,
+        this.createdAt,
+        this.updatedAt});
 
   SliderData.fromJson(Map<String, dynamic> json) {
     id = json['id'];
@@ -30,5 +30,10 @@ class SliderData {
     data['id'] = id;
     data['title'] = title;
     data['short_des'] = shortDes;
+    data['image'] = image;
+    data['product_id'] = productId;
+    data['created_at'] = createdAt;
+    data['updated_at'] = updatedAt;
+    return data;
   }
 }

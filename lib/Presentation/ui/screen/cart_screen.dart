@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:mobile_app7/Presentation/state_holders/cart_list_controller.dart';
+import 'package:mobile_app7/Presentation/state_holders/main_bottom_nav_controller.dart';
 import 'package:mobile_app7/Presentation/ui/utility/app_colors.dart';
-import 'package:mobile_app7/Presentation/ui/widgets/cart-producr_card.dart';
+import 'package:mobile_app7/Presentation/ui/widgets/cart_product_card.dart';
 
 import 'checkout_screen.dart';
 
