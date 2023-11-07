@@ -1,4 +1,5 @@
 import 'package:get/get.dart';
+import 'package:mobile_app7/Presentation/state_holders/add_to_cart_controller.dart';
 
 class StateHolderBinder extends Bindings {
   @override

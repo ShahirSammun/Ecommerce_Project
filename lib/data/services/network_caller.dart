@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'dart:developer';
+import 'package:mobile_app7/Presentation/state_holders/auth_controller.dart';
 import 'package:mobile_app7/Presentation/ui/screen/auth/email_verification.dart';
 import 'package:mobile_app7/application/app.dart';
 import 'package:mobile_app7/data/models/network_response.dart';

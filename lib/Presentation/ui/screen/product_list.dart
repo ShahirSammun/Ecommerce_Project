@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:mobile_app7/Presentation/state_holders/product_list_controller.dart';
 import 'package:mobile_app7/Presentation/ui/widgets/product_card.dart';
 import 'package:mobile_app7/data/models/product_model.dart';
 
